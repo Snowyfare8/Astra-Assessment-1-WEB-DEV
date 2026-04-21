@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    
+    background-color: black;
+    background-image: linear-gradient(90deg, #020153, #000000);
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+
+}
+
+.title {
+
+    margin-top:50px;
+    margin-left: 50px;
+    margin-bottom: 50px; 
+
+}
+
+.nav_links {
+
+    display: flex;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.button1 {
+
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px
+    
+}
+
+.button2 {
+
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px
+
+}
+
+.button3 {
+
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px
+
+}
+
+.button4 {
+
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px
+
+}
+.plot {
+
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    justify-content: justify;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 1rem;
+
+}
+
+.cast {
+
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    justify-content: justify;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 1rem;
+
+}
+
+.key_info {
+
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 1rem;
+
+}
+
+.reviews {
+
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    justify-content: justify;
+    align-items: center;
+    padding: 0 1rem;
+
+}
