@@ -82,6 +82,20 @@ body {
 
 }
 
+.button5 {
+
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    color: black;
+    display:inline-block;
+    text-decoration: none
+
+}
+
 .plot {
 
     margin: 50px;
