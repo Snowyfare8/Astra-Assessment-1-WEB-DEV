@@ -11,6 +11,7 @@ body {
 
 }
 
+/* Centers the title of the webpage */
 header {
 
     display: flex;
@@ -20,6 +21,7 @@ header {
 
 }
 
+/* Adjusts the titles of the images to be centered */
 section {
 
     display: flex;
@@ -29,7 +31,8 @@ section {
 
 }
 
-h2 {
+/* Properly aligns the titles of the images to be centered within their specific images */
+h2 { 
 
     margin-left:auto;
     margin-right:auto
@@ -43,6 +46,7 @@ main {
 
 }
 
+/* Adjusts the copyright paragraphs of the images to be centered within their specific images */
 footer {
 
     display: flex;
@@ -59,6 +63,7 @@ p {
 
 }
 
+/* Images of the planets, being scaled to be smaller, and ran through CSS filters. */
 .venus {
 
     height: 50%;
