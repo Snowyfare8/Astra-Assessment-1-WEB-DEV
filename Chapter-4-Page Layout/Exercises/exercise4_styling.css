@@ -1,0 +1,161 @@
+html, body {
+
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+.headings {
+
+    background-color: #17072b;
+    color: White;
+    font-size: 25px
+
+}
+
+header {
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    text-align: center; 
+
+}
+
+h1 {
+
+    text-decoration: underline;
+
+
+}
+
+nav {
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: white
+
+}
+
+.button {
+
+    margin: auto;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_content {
+
+    display: flex;
+    margin: 30px
+
+}
+
+main {
+
+    margin-right: 50px;
+
+}
+
+.side_article {
+
+    color: white;
+    background-color: #172D67
+
+}
+
+.welcome_header {
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 32px
+
+}
+
+p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-justify: inter-word;
+    justify-content: justify;
+    align-items: center;
+    text-align: justify
+
+}
+.main_image {
+
+    height: 350px;
+    width: 1000px
+
+}
+
+aside {
+
+    padding: 25px;
+    text-align: left
+
+}
+
+.sideline_header {
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 32px;
+    margin-top: 2px
+
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px
+}
+
+.images_pair {
+
+    display: flex;
+    margin: 0px;
+    margin-top: 50px
+
+}
+
+.side_article_image_1 {
+
+    height: 200px;
+    width: 200px;
+    margin-right: 5px
+
+}
+
+.side_article_image_2 {
+
+    height: 200px;
+    width: 200px;
+    margin-left: 5px
+
+}
+
+.footing {
+
+    margin-top: 40px;
+    background-color: #8c15e9;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+h6 {
+
+    padding: 15px;
+    font-size: 15;
+
+}
