@@ -1,0 +1,59 @@
+/* Setting up the webpage's layout */
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #17072b;
+    color: White;
+    font-size: 25px
+
+}
+
+/* Aligns the title of the website. */
+header {
+
+    text-align: center; 
+    justify-content: center;
+    align-items: center;    
+
+}
+
+/* Aligns the video to be centred as well as aligning the side pictures. */
+main {
+
+    text-align: center; 
+    justify-content: center;
+    align-items: center;    
+
+}
+
+/* Adds margins between the video and the posters */
+video {
+
+    margin-left: 125px;
+    margin-right: 125px
+
+}
+/* Centres the YT video link */
+footer {
+
+    text-align: center; 
+    justify-content: center;
+    align-items: center;   
+    margin-top: 50px
+}
+
+/* Makes the link look like a button. */
+a {
+
+    border-radius: 25px;
+    border-style: solid;
+    background-color: white;
+    border-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 
+
+}
