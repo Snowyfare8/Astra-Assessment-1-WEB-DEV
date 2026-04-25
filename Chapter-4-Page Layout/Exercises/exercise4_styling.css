@@ -7,6 +7,7 @@ html, body {
 
 }
 
+/* Styles heading section */
 .headings {
 
     background-color: #17072b;
@@ -15,6 +16,7 @@ html, body {
 
 }
 
+/* Styles title area */
 header {
 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,6 +28,7 @@ header {
 
 }
 
+/* Styles title */
 h1 {
 
     text-decoration: underline;
@@ -33,6 +36,7 @@ h1 {
 
 }
 
+/* Styles "link" area */
 nav {
 
     font-family: Arial, Helvetica, sans-serif;
@@ -41,6 +45,7 @@ nav {
 
 }
 
+/* Styles "buttons" */
 .button {
 
     margin: auto;
@@ -53,6 +58,7 @@ nav {
 
 }
 
+/* Styles main content area */
 .main_content {
 
     display: flex;
@@ -60,12 +66,14 @@ nav {
 
 }
 
+/* Styles welcoming text area */
 main {
 
     margin-right: 50px;
 
 }
 
+/* Styles side article */
 .side_article {
 
     color: white;
@@ -73,6 +81,7 @@ main {
 
 }
 
+/* Styles welcoming text title */
 .welcome_header {
 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,6 +90,7 @@ main {
 
 }
 
+/* Styles welcoming text's paragraph */
 p {
 
     font-family: Arial, Helvetica, sans-serif;
@@ -91,6 +101,8 @@ p {
     text-align: justify
 
 }
+
+/* Styles the image below the welcoming text */
 .main_image {
 
     height: 350px;
@@ -98,6 +110,7 @@ p {
 
 }
 
+/* Styles the side article */
 aside {
 
     padding: 25px;
@@ -105,6 +118,7 @@ aside {
 
 }
 
+/* Styles the side article's title */
 .sideline_header {
 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -114,11 +128,13 @@ aside {
 
 }
 
+/* Styles the side article's list */
 ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px
 }
 
+/* Styles the images section below the side article's content */
 .images_pair {
 
     display: flex;
@@ -127,6 +143,7 @@ ul {
 
 }
 
+/* Styles the first image in the side article */
 .side_article_image_1 {
 
     height: 200px;
@@ -135,6 +152,7 @@ ul {
 
 }
 
+/* Styles the second image in the side article */
 .side_article_image_2 {
 
     height: 200px;
@@ -143,6 +161,7 @@ ul {
 
 }
 
+/* Styles footing section */
 .footing {
 
     margin-top: 40px;
@@ -153,6 +172,7 @@ ul {
 
 }
 
+/* Styles footing section text. */
 h6 {
 
     padding: 15px;
