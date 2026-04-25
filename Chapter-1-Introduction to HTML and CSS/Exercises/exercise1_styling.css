@@ -1,3 +1,4 @@
+/* Import font which is to be used throughout the webpage. */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
@@ -6,8 +7,10 @@ body {
     font-family: "Poppins", sans-serif;
     padding: 0;
     margin: 0
+
 }
 
+/* Style the title class*/
 .title {
 
     color: gold;
@@ -23,6 +26,7 @@ body {
 
 }
 
+/* Styles the picture of the food recipe */
 img {    
     
     border-radius: 10px;
@@ -34,6 +38,7 @@ img {
 
 }
 
+/* Styles the section from composed area from the image to the ingredients */
 article {
 
     margin: 50px;
@@ -46,6 +51,7 @@ article {
 
 }
 
+/* Styles the sections that includes the steps of the recipe */
 main {
 
     margin: 50px;
@@ -58,6 +64,7 @@ main {
 
 }
 
+/* Styles the link section. */
 nav {
 
     margin: 50px;
