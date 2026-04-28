@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Petrol Calculator</h1>
+        <h1>Petrol Calculator Webpage</h1>
     </header>
     <main> 
         <div class = "group_1">
@@ -22,8 +22,9 @@
         </div>
 
         <div class = "group_3">
-        <button onclick = "calculateTotal()">Calculate Total</button>
-        <p>Total Cost: <span id = "total"></span></p> <!-- Displays total cost after pressing claculate total button -->
+        <button class = "calculateButton" onclick = "calculateTotal()">Calculate Total</button> <!-- Activate calculation function -->
+        <button class = "resetButton" onclick = "resetCost()">Reset</button> <!-- Resets total cost -->
+        <p>Total Cost: <span id = "total">0</span></p> <!-- Displays total cost after pressing calculate total button -->
         </div>
     </main>
 </body>
