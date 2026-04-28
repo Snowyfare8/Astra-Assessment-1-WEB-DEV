@@ -1,22 +1,89 @@
+/* Import font to be used */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* Applies font globally */
 body {
 
     padding: 0;
     margin: 0;
-    font-family: "Poppins", sans-serif
+    font-family: "Poppins", sans-serif;
     
 }
 
+/* Styles header section */
 header {
 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center
+    margin: 0;
+    border: 1px solid black;
+    background-color: lightgray
 
 }
 
+/* Sets a margin for the title itself */
+h1 {
+
+    margin: 15px
+
+}
+
+/* Styles menu bar "buttons" */
+.menu {
+
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0
+
+}
+
+.save_file {
+
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0
+
+}
+
+.load_file {
+
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0
+
+}
+
+.date {
+
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0
+
+}
+
+.settings {
+
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+    margin-left: 1295px
+
+}
+
+/* Styles menu bar */
+nav {
+    
+    display: flex;
+    border: 1px solid black;
+    background-color: lightgray
+
+}
+
+/* Left column */
 .column_1 {
 
     width: 50%;
@@ -24,6 +91,7 @@ header {
 
 }
 
+/* Right column */
 .column_2 {
 
     width: 50%;
@@ -31,29 +99,29 @@ header {
 
 }
 
-.column_3 {
+/* Shortens list element */
+ul {
 
-    width: 50%;
-    float: left;
-
-}
-
-.column_4 {
-
-    width: 50%;
-    float: right;
-    padding-left: 10px;
+    width: 75%
 
 }
 
+/* Styles list elements */
 li {
 
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-right: 0px;
     font-size: 20px;
     color: black;
-    border: 1px solid black
+    border: 1px solid black;
 
 }
 
+/* Styles notes section */
+.notes_division {
+
+    border: 1px solid black;
+    width: 500px;
+    height: 250px
+
+}
